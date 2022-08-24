@@ -68,12 +68,12 @@
   justify-content: center;*/
   background-color: transparent;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    background-color: var(--select-color);
+  }
 }
 
-.team-soc-link:hover,
-.team-soc-link:focus {
-  background-color: var(--select-color);
-}
 .team-soc-link:hover .team-soc-icon,
 .team-soc-link:focus .team-soc-icon {
   fill: var(--white-bgc);

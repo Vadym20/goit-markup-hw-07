@@ -20,15 +20,15 @@
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 30px;
-
-  font-weight: 900;
+  @include font(900, 44px, 1.36, 0.06em);
+  /*font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.06em;*/
   text-transform: uppercase;
   color: var(--white-text-color);
 }
-.header-btn {
+/*.header-btn {
   padding: 10px 32px;
   margin: 0 auto;
   display: block;
@@ -51,4 +51,4 @@
 .header-btn:hover,
 .header-btn:focus {
   background-color: var(--accent-color);
-}
+}*/
